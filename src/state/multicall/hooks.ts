@@ -44,7 +44,7 @@ const INVALID_RESULT: CallResult = { valid: false, blockNumber: undefined, data:
 
 // use this options object
 export const NEVER_RELOAD: ListenerOptions = {
-  blocksPerFetch: Infinity,
+  blocksPerFetch: Number.POSITIVE_INFINITY,
 }
 
 // the lowest level call for subscribing to contract data
